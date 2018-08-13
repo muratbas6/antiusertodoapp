@@ -6,4 +6,7 @@ function addNew() {
   }
 }
 
+$('.list-group-item .list-group-item-action').on('dblclick', function () {
+  $(this).toggleClass('completed');
 
+})
